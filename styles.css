@@ -1,6 +1,10 @@
+@font-face {
+    font-family: get_schwifty;
+    src: url(fonts/get_schwifty.ttf);
+}
 body {
     margin: 20px;
-    font-family:Courier New, Courier, monospace;
+    font-family:get_schwifty, Courier New, Courier, monospace;
     background: #97ce4c;
 }
 
@@ -21,6 +25,8 @@ body {
     text-align: center;
     background: #44281d;
     color:  	#f0e14a;
+    font-size: 20px;
+    letter-spacing:2px;
     font-weight: bolder;
    
     border-bottom-left-radius: 20px 20px;
